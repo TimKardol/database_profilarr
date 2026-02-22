@@ -114,10 +114,6 @@ custom_formats:
   score: 2000
 - name: HDR10+
   score: 2000
-- name: DTS-X
-  score: 1600
-- name: DTS-HD MA
-  score: 1200
 - name: TrueHD
   score: 1200
 - name: TrueHD (Missing)
@@ -142,22 +138,16 @@ custom_formats:
   score: 800
 - name: PCM
   score: 800
-- name: DTS-HD HRA
-  score: 700
 - name: Opus
   score: 700
 - name: Dolby Digital +
   score: 600
-- name: DTS-ES
-  score: 500
 - name: Atmos
   score: 400
 - name: Atmos (Missing)
   score: 400
 - name: Dolby Digital
   score: 400
-- name: DTS
-  score: 300
 - name: AAC
   score: 200
 - name: Remux Tier 1
@@ -231,6 +221,16 @@ custom_formats:
 - name: Dolby Vision
   score: -999999
 - name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: DTS
+  score: -999999
+- name: DTS-ES
+  score: -999999
+- name: DTS-HD HRA
+  score: -999999
+- name: DTS-HD MA
+  score: -999999
+- name: DTS-X
   score: -999999
 - name: Full Disc
   score: -999999
